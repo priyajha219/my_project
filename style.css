@@ -1,0 +1,275 @@
+*{
+    font-family: Verdana,sans-serif;
+    /* margin: 0; */
+    /* outline: 0; */
+    /* border: 0; */
+    color:white;
+
+
+
+ }
+
+.project-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 320vh;
+ }
+
+.box1{
+    background-color: black;
+    text-align:center;
+    padding-top:80px;
+}
+
+.logo {
+    padding-bottom: 100px;
+    font-size:45px;
+    font-weight: 500;
+
+}
+.list{
+    padding: 5px;
+    display: block;
+    margin-top: 50px;
+
+}
+
+.box2{
+    background-color: rgb(75,112,133);
+    text-align: center;
+    padding-top: 80px;
+}
+
+.About {
+    padding-bottom: 50px;
+    font-size:45px;
+    font-weight: 500;
+    /* margin-top: 100px; */
+}
+
+.box3{
+    background-color: white;
+}
+
+.box4{
+    background-color: rgb(11,81,160);
+}
+
+.box5{
+    background-color: #616161;
+}
+.box6{
+    background-color: #009688;
+}
+
+.img-container{
+    padding-left: 200px;
+}
+
+.img-men {
+    height:300px;
+    width:300px;
+    border-radius:50%;
+    overflow: hidden;
+}
+
+.img-men img {
+    width:100%;
+    height:100%;
+}
+
+.lorem {
+    padding-right:50px;
+    font-size: 1.1rem;
+    padding-left: 50px;
+    padding-top: 50px;
+    text-align: left;
+
+
+}
+.para{
+    margin-block-end: 1em;
+}
+
+.project-h{
+    color:#000;
+    font-size: 30px;
+    font-weight:400;
+    text-align:center;
+}
+
+.project-p{
+    color:#000;
+    font-size: 14px;
+    font-weight:60;
+    margin-top:20px;
+    text-align:center;
+}
+
+.pro-container2 {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.project-item {
+    text-align:center;
+    line-height: 0;
+}
+
+.project-item img {
+    width: 100%;
+}
+
+.paragraph-p2{
+    color:black;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.swing-h{
+    color:white;
+    font-size:40px;
+    font-weight:400;
+    text-align:center;
+    padding-top: 10px;
+    margin: 70px;
+    padding-bottom: 100px;
+}
+
+.swing-p{
+    color: whitesmoke;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+}
+
+.box4 {
+    background-color: #4537c4;
+    padding-top: 64px;
+    text-align: center;
+}
+
+.resume-section-h{
+    font-size: 30px;
+    font-weight:400;
+}
+
+.resume-section-p{
+    font-size: 14px;
+    font-weight:60;
+    margin-top:20px;
+}
+table{
+    border-collapse: collapse;
+}
+.table{
+    margin: 60px;
+}
+
+.white{
+    color: black;
+    background-color: white;
+    line-height: 50px;
+
+}
+
+.box6{
+    background-color: #009688;
+    height: 700px;
+    /* width: 631.656px; */
+}
+#cont{
+    color: white;
+    margin-top: 10px 0 10px 0px;
+    padding-top: 80px;
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 36px;
+     
+}
+.box6 h1{
+    text-align: justify;
+}
+.para2{
+    font-family: verdana,sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-left: 40px;
+    opacity: 0.60;
+    height: 22.5px;
+    padding-top: 23px;
+}
+.main-formbox{
+    height: 351px;
+    /* form side width issue white spaces */
+    width: 551px;
+    padding: 32px 16px 32px 16px;
+    background-color: #ffffff;
+    margin: 40px;
+}
+.form-box{
+    height: 80px;
+    /* form input width issue */
+    width: 519px;
+
+}
+label{
+    font-size: 15px;
+    line-height: 22.5px;
+    font-family: verdana, sans-serif;
+    color: black;
+    
+    
+}
+.input{
+    line-height: 22.5px;
+    height: 39.1667px;
+    border-bottom: 1px solid #cccccc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-decoration: none solid rgb(0,0,0);
+    padding-top: 5px;
+    color: black;
+
+}
+.button{
+    float: right;
+    height: 38.5px;
+    width: 70.0312px;
+    padding: 8px 16px 8px 16px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+.button:hover{
+    background-color: #cccccc;
+    cursor: pointer;
+    color: black;
+}
+
+.footer{
+    background-color: #000;
+    padding-top: 40px;
+    padding-left: 30px;
+    height: 8vh;
+}
+
+.footer a{
+    text-decoration: underline;
+
+}
